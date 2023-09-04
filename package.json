@@ -1,0 +1,22 @@
+{
+  "name": "alexa-startrek",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon -L --watch . -e ts,js --exec 'ts-node' src/index.ts",
+    "build": "tsc",
+    "prod": "node dist/index.js"
+  },
+  "dependencies": {
+    "ask-sdk-core": "^2.14.0",
+    "ask-sdk-model": "^1.86.0",
+    "axios": "^1.5.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1"
+  }
+}

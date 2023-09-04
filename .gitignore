@@ -1,0 +1,41 @@
+# Node.js specific
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# TypeScript generated files
+dist/
+*.tsbuildinfo
+
+# AWS SAM and CloudFormation
+.sam/
+*.template
+packaged.yaml
+AWSCLIV2.pkg
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# macOS files
+.DS_Store
+
+# Temp files
+*.tmp
+*.log
+*.pid
+*.swp
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Environment variables
+.env
+.env.*
+!.env.sample
